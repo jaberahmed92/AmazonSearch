@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-14T02:54:29Z" name="Suite1" finished-at="2021-01-14T02:55:14Z" duration-ms="44752">
+  <suite started-at="2021-03-02T04:05:45Z" name="Default suite" finished-at="2021-03-02T04:06:48Z" duration-ms="63019">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@1e730495]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@79e4c792]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2021-01-14T02:54:29Z" name="Nopackage" finished-at="2021-01-14T02:55:14Z" duration-ms="44752">
+    <test started-at="2021-03-02T04:05:45Z" name="Default test" finished-at="2021-03-02T04:06:48Z" duration-ms="63019">
       <class name="com.testrunner.TestRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.testrunner.TestRunner@1e730495]" started-at="2021-01-14T02:54:29Z" name="setUpClass" finished-at="2021-01-14T02:54:29Z" duration-ms="238" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.testrunner.TestRunner@79e4c792]" started-at="2021-03-02T04:05:45Z" name="setUpClass" finished-at="2021-03-02T04:05:45Z" duration-ms="294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@1e730495]" started-at="2021-01-14T02:54:29Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-01-14T02:55:13Z" duration-ms="44362" status="FAIL">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@79e4c792]" started-at="2021-03-02T04:05:45Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-03-02T04:06:48Z" duration-ms="62600" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -25,24 +25,24 @@
           <exception class="cucumber.runtime.CucumberException">
             <message>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='a-size-medium a-color-price header-price a-text-normal']"}
-  (Session info: chrome=87.0.4280.141)
+  (Session info: chrome=88.0.4324.190)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-PMVA0TH7', ip: '192.168.1.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\jaber\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54777}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 0470fcca54038dfc96c5fa19ff3abc74
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\jaber\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51080}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e4c89a81d9bfe43f8d8ae48f15463b70
 *** Element info: {Using=xpath, value=//span[@class='a-size-medium a-color-price header-price a-text-normal']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='a-size-medium a-color-price header-price a-text-normal']"}
-  (Session info: chrome=87.0.4280.141)
+  (Session info: chrome=88.0.4324.190)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-PMVA0TH7', ip: '192.168.1.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\jaber\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54777}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 0470fcca54038dfc96c5fa19ff3abc74
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\jaber\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51080}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e4c89a81d9bfe43f8d8ae48f15463b70
 *** Element info: {Using=xpath, value=//span[@class='a-size-medium a-color-price header-price a-text-normal']}
 at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
@@ -72,13 +72,13 @@ at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='a-size-medium a-color-price header-price a-text-normal']"}
-  (Session info: chrome=87.0.4280.141)
+  (Session info: chrome=88.0.4324.190)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-PMVA0TH7', ip: '192.168.1.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\jaber\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54777}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 0470fcca54038dfc96c5fa19ff3abc74
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\jaber\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51080}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e4c89a81d9bfe43f8d8ae48f15463b70
 *** Element info: {Using=xpath, value=//span[@class='a-size-medium a-color-price header-price a-text-normal']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
@@ -98,7 +98,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at com.sun.proxy.$Proxy22.getText(Unknown Source)
-at com.amazonStepDef.stepdef.click_on_the_item(stepdef.java:41)
+at com.amazonStepDef.stepdef.click_on_the_item(stepdef.java:43)
 at ✽.And click on the item(search.feature:6)
 ]]>
             </full-stacktrace>
@@ -106,11 +106,11 @@ at ✽.And click on the item(search.feature:6)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.testrunner.TestRunner@1e730495]" started-at="2021-01-14T02:55:13Z" name="tearDownClass" finished-at="2021-01-14T02:55:13Z" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.testrunner.TestRunner@79e4c792]" started-at="2021-03-02T04:06:48Z" name="tearDownClass" finished-at="2021-03-02T04:06:48Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.testrunner.TestRunner -->
-    </test> <!-- Nopackage -->
-  </suite> <!-- Suite1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

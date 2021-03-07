@@ -2,6 +2,7 @@ package com.amazonStepDef;
 
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import org.testng.asserts.SoftAssert;
 
 import com.amazonPages.PageObjectModel;
 import com.common.Base;
@@ -11,6 +12,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class stepdef extends Base {
+	SoftAssert sf = new SoftAssert();
 	String expectedprice;
 	String actualprice;
 	PageObjectModel page;
@@ -49,7 +51,7 @@ public class stepdef extends Base {
 		expectedprice = page.checkprice.getText();
 		actualprice = page.PriceValidateAfteraddcart.getText();
 		System.out.println(actualprice);
-		Assert.assertEquals(actualprice, expectedprice);
+		sf.assertEquals(actualprice, expectedprice);
 		    
 		  
 	   
